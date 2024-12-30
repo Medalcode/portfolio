@@ -1,13 +1,14 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '/src/assets/Images/logo.png'
+import logoedit from '/src/assets/Images/logoedit.png'
 
 const Navbar = () => {
   return (
     <>
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img src={logo} alt="" className="logo" />
+          <img src={logoedit} alt="" className="logo" />
           <ul>
             <li>
               <a href="" className="menu-item">Home</a>
