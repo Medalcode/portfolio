@@ -1,8 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logoedit2 from '/src/assets/Images/logoedit2.svg'
 import logoedit from '/src/assets/Images/logoedit.png'
-im
 
 const Navbar = () => {
   return (
