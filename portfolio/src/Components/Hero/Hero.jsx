@@ -2,6 +2,13 @@ import React from 'react'
 import './Hero.css'
 import profile from '../../assets/Images/profile.png'
 import html5 from '../../assets/Images/html5.svg'
+import css3 from '../../assets/Images/css3.svg'
+import jscript from '../../assets/Images/jscript.svg'
+import react from '../../assets/Images/react.svg'
+import python from '../../assets/Images/python.svg'
+import django from '../../assets/Images/django.svg'
+import mysql from '../../assets/Images/mysql.svg'
+
 
 
 const Hero = () => {
@@ -22,24 +29,24 @@ const Hero = () => {
                 </div>
                 <img src={profile} alt="" className="" />
                 <div className="tech-icon">
-                    <img src={html5} alt="" className="" />
+                    <img src={mysql} alt="" className="" />
                 </div>
             </div>
             <div>
                 <div className="tech-icon">
-                    <img src={html5} alt="" className="" />
+                    <img src={css3} alt="" className="" />
                 </div>
                 <div className="tech-icon">
-                    <img src={html5} alt="" className="" />
+                    <img src={jscript} alt="" className="" />
                 </div>
                 <div className="tech-icon">
-                    <img src={html5} alt="" className="" />
+                    <img src={react} alt="" className="" />
                 </div>
                 <div className="tech-icon">
-                    <img src={html5} alt="" className="" />
+                    <img src={python} alt="" className="" />
                 </div>
                 <div className="tech-icon">
-                    <img src={html5} alt="" className="" />
+                    <img src={django} alt="" className="" />
                 </div>
             </div>
         </div>
