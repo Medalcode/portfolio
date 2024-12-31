@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import logoedit from '/src/assets/Images/logoedit.png';
 import MobileNav from './MobileNav/MobileNav';
 
 const Navbar = () => {
@@ -16,7 +15,7 @@ const Navbar = () => {
 
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img className="logo" src={logoedit} alt=""/>
+          <img className="logo" src="assets/Images/logoedit.png" alt=""/>
           <ul>
             <li>
               <a href="" className="menu-item">Home</a>
