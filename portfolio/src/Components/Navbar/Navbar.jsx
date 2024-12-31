@@ -2,9 +2,17 @@ import React from 'react'
 import './Navbar.css'
 import logoedit from '/src/assets/Images/logoedit.png'
 
+
 const Navbar = () => {
+  const [openMenu, setOpenMenu] = useState(false)
+
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+
   return (
     <>
+      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
       <nav className="nav-wrapper">
         <div className="nav-content">
           <img src={logoedit} alt="" className="logo" />
@@ -27,7 +35,7 @@ const Navbar = () => {
           </ul>
           <button className="menu-btn" onClick={()=>{}}>
             <span className="material-symbols-outlined" style={{fontSize:"1.8rem"}}> 
-              menu
+              {openMenu ? "close" : "menu"}
             </span>
           </button>
         </div>
