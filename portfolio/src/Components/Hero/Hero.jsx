@@ -28,9 +28,6 @@ const Hero = () => {
                     <img src={html5} alt="" className="" />
                 </div>
                 <img src={profile} alt="" className="" />
-                <div className="tech-icon">
-                    <img src={mysql} alt="" className="" />
-                </div>
             </div>
             <div>
                 <div className="tech-icon">
@@ -40,13 +37,10 @@ const Hero = () => {
                     <img src={jscript} alt="" className="" />
                 </div>
                 <div className="tech-icon">
-                    <img src={react} alt="" className="" />
-                </div>
-                <div className="tech-icon">
                     <img src={python} alt="" className="" />
                 </div>
                 <div className="tech-icon">
-                    <img src={django} alt="" className="" />
+                    <img src={mysql} alt="" className="" />
                 </div>
             </div>
         </div>
