@@ -1,6 +1,8 @@
 import React from 'react'
 import './Hero.css'
 import profile from '../../assets/Images/profile.png'
+import html5 from '../../assets/Images/html5.svg'
+
 
 const Hero = () => {
   return (
@@ -12,21 +14,32 @@ const Hero = () => {
             </p>
         </div>
         <div className="hero-img">
+
             <div>
+                
                 <div className="tech-icon">
-                    <img src={profile} alt="" className="" />
+                    <img src={html5} alt="" className="" />
                 </div>
                 <img src={profile} alt="" className="" />
+                <div className="tech-icon">
+                    <img src={html5} alt="" className="" />
+                </div>
             </div>
             <div>
                 <div className="tech-icon">
-                    <img src={profile} alt="" className="" />
+                    <img src={html5} alt="" className="" />
                 </div>
                 <div className="tech-icon">
-                    <img src={profile} alt="" className="" />
+                    <img src={html5} alt="" className="" />
                 </div>
                 <div className="tech-icon">
-                    <img src={profile} alt="" className="" />
+                    <img src={html5} alt="" className="" />
+                </div>
+                <div className="tech-icon">
+                    <img src={html5} alt="" className="" />
+                </div>
+                <div className="tech-icon">
+                    <img src={html5} alt="" className="" />
                 </div>
             </div>
         </div>
