@@ -1,16 +1,22 @@
-import React from 'react'
-import './Navbar.css'
-import logoedit from '/src/assets/Images/logoedit.png'
+import React, { useState } from 'react';
+import './Navbar.css';
+import logoedit from '/src/assets/Images/logoedit.png';
+import MobileNav from './MobileNav/MobileNav';
 
 const Navbar = () => {
-  const [openMenu, setOpenMenu] = useState(false)
+  const [openMenu, setOpenMenu] = useState(false);
 
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
+  };
 
   return (
     <>
+      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img src={logoedit} alt="" className="logo" />
+          <img className="logo" src={logoedit} alt=""/>
           <ul>
             <li>
               <a href="" className="menu-item">Home</a>
@@ -28,15 +34,15 @@ const Navbar = () => {
               Hire Me
             </button>
           </ul>
-          <button className="menu-btn" onClick={()=>{}}>
+          <button className="menu-btn" onClick={toggleMenu}>
             <span className="material-symbols-outlined" style={{fontSize:"1.8rem"}}> 
-              menu
+              {openMenu ? "close" : "menu"}
             </span>
           </button>
         </div>
       </nav>
     </>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
