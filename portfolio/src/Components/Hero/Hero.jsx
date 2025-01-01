@@ -13,24 +13,7 @@ const Hero = () => {
           </div>
           <div className="hero-img">
               <div>
-                  <div className="tech-icon">
-                      <img src="assets/Images/html5.svg" alt="HTML5" className="" />
-                  </div>
-                  <img src="assets/Images/profile.png" alt="Profile" className="" />
-              </div>
-              <div>
-                  <div className="tech-icon">
-                      <img src="assets/Images/css3.svg" alt="CSS3" className="" />
-                  </div>
-                  <div className="tech-icon">
-                      <img src="assets/Images/jscript.svg" alt="JavaScript" className="" />
-                  </div>
-                  <div className="tech-icon">
-                      <img src="assets/Images/python.svg" alt="Python" className="" />
-                  </div>
-                  <div className="tech-icon">
-                      <img src="assets/Images/mysql.svg" alt="MySQL" className="" />
-                  </div>
+                  <img src="assets/Images/big_profile.webp" alt="Profile" className="" />
               </div>
           </div>
       </section>
