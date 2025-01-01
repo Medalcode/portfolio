@@ -11,11 +11,11 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-slick": "^0.30.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

@@ -43,21 +43,18 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
     {
-        title: "Frontend Developer",
-        company: "Google",
+        title: "Frontend Developer at Google",
         date: "2020 - Present",
-        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
+        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.", "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
     },
     {
-        title: "Backend Developer",
-        company: "Facebook",
+        title: "Backend Developer at Google",
         date: "2018 - 2020",
-        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
+        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.", "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
     },
     {
-        title: "Full Stack Developer",
-        company: "Amazon",
+        title: "Full Stack Developer at Google",
         date: "2016 - 2018",
-        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
+        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.", "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
     },
 ];
