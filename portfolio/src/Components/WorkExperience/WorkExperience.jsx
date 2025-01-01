@@ -1,10 +1,20 @@
-import React from 'react'
-import './WorkExperience.css'
+import React from 'react';
+import './WorkExperience.css';
+import { WORK_EXPERIENCE } from '../../utils/data'; 
+import ExperienceCard from './ExperienceCard/ExperienceCard';
 
 const WorkExperience = () => {
   return (
-    <div>WorkExperience</div>
-  )
-}
+    <section className="experience-container">
+      <h5>Work Experience</h5>
 
-export default WorkExperience
+      <div className="experience-content">
+        {WORK_EXPERIENCE.map((item) => (
+          <ExperienceCard key={item.title} details={item} />
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default WorkExperience;
