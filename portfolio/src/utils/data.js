@@ -40,3 +40,24 @@ export const SKILLS = [
         ],
     },
 ];
+
+export const WORK_EXPERIENCE = [
+    {
+        title: "Frontend Developer",
+        company: "Google",
+        date: "2020 - Present",
+        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
+    },
+    {
+        title: "Backend Developer",
+        company: "Facebook",
+        date: "2018 - 2020",
+        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
+    },
+    {
+        title: "Full Stack Developer",
+        company: "Amazon",
+        date: "2016 - 2018",
+        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
+    },
+];
