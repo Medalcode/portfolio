@@ -12,7 +12,16 @@ const ContactMe = () => {
             <div style={{flex:1}}>
             <ContactInfoCard
                 iconUrl="assets/Images/email.svg"
-                text="jonatthan.medalla@gmail.com"/>
+                text="jonatthan.medalla@gmail.com"
+            />
+            <ContactInfoCard
+                iconUrl="assets/Images/email.svg"
+                text="jonatthan.medalla@gmail.com"
+            />
+            <ContactInfoCard
+                iconUrl="assets/Images/email.svg"
+                text="jonatthan.medalla@gmail.com"
+            />
         </div>
             
             <div style={{flex:1}}></div>

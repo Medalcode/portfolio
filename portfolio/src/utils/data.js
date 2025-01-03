@@ -16,7 +16,7 @@ export const SKILLS = [
             {skill: "Python", icon: "assets/Images/python.svg", description: "Python is an interpreted, high-level and general-purpose programming language." },
             {skill: "Django", icon: "assets/Images/django.svg", description: "HTML is the standard markup language for Web pages." },
             {skill: "MySQL", icon: "assets/Images/mysql.svg", description: "MySQL is an open-source relational database management system." },
-            {skill: "NoSQL", icon: "assets/Images/html5.svg", description: "HTML is the standard markup language for Web pages." },
+            {skill: "MongoDB", icon: "assets/Images/mongodb.svg", description: "HTML is the standard markup language for Web pages." },
         ]
     },
     {
@@ -26,7 +26,7 @@ export const SKILLS = [
             {skill: "Github", icon: "assets/Images/html5.svg", description: "GitHub is a code hosting platform for version control and collaboration." },
             {skill: "Visual Studio Code", icon: "assets/Images/html5.svg", description: "Visual Studio Code is a source-code editor developed by Microsoft." },
             {skill: "Figma", icon: "assets/Images/html5.svg", description: "Figma is a vector graphics editor and prototyping tool." },
-            {skill: "Figma", icon: "assets/Images/html5.svg", description: "Figma is a vector graphics editor and prototyping tool." },
+            {skill: "Cursor", icon: "assets/Images/html5.svg", description: "Figma is a vector graphics editor and prototyping tool." },
         ]
     },
     {
