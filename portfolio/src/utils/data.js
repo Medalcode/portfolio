@@ -1,7 +1,7 @@
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: "assets/Images/html5.svg",
+        icon: "assets/Images/frontend1.svg",
         skills:[
             {skill: "HTML 5", icon: "assets/Images/html5.svg", description: "HTML is the standard markup language for Web pages." },
             {skill: "CSS 3", icon: "assets/Images/css3.svg", description: "HTML is the standard markup language for Web pages." },
@@ -11,7 +11,7 @@ export const SKILLS = [
     },
     {
         title: "Backend",
-        icon: "assets/Images/html5.svg",
+        icon: "assets/Images/backend1.svg",
         skills:[
             {skill: "Python", icon: "assets/Images/python.svg", description: "Python is an interpreted, high-level and general-purpose programming language." },
             {skill: "Django", icon: "assets/Images/django.svg", description: "HTML is the standard markup language for Web pages." },
@@ -21,17 +21,17 @@ export const SKILLS = [
     },
     {
         title: "Tools",
-        icon: "assets/Images/html5.svg",
+        icon: "assets/Images/tools1.svg",
         skills:[
-            {skill: "Github", icon: "assets/Images/github4.svg", description: "GitHub is a code hosting platform for version control and collaboration." },
+            {skill: "Github", icon: "assets/Images/github.svg", description: "GitHub is a code hosting platform for version control and collaboration." },
             {skill: "Visual Studio Code", icon: "assets/Images/vscode.svg", description: "Visual Studio Code is a source-code editor developed by Microsoft." },
-            {skill: "Miro", icon: "assets/Images/miro2.svg", description: "Figma is a vector graphics editor and prototyping tool." },
-            {skill: "ChatGTP", icon: "assets/Images/chatgpt1.svg", description: "Figma is a vector graphics editor and prototyping tool." },
+            {skill: "Miro", icon: "assets/Images/miro.svg", description: "Figma is a vector graphics editor and prototyping tool." },
+            {skill: "ChatGTP", icon: "assets/Images/chatgpt.svg", description: "Figma is a vector graphics editor and prototyping tool." },
         ]
     },
     {
         title: "Soft Skills",
-        icon: "assets/Images/html5.svg",
+        icon: "assets/Images/softskills.svg",
         skills:[
             {skill: "Problem Solving", icon: "assets/Images/html5.svg", description: "HTML is the standard markup language for Web pages." },
             {skill: "Teamwork", icon: "assets/Images/html5.svg", description: "Teamwork is the collaborative effort of a group to achieve a common goal." },
