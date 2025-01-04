@@ -26,7 +26,7 @@ export const SKILLS = [
             {skill: "Github", icon: "assets/Images/github4.svg", description: "GitHub is a code hosting platform for version control and collaboration." },
             {skill: "Visual Studio Code", icon: "assets/Images/vscode.svg", description: "Visual Studio Code is a source-code editor developed by Microsoft." },
             {skill: "Miro", icon: "assets/Images/miro2.svg", description: "Figma is a vector graphics editor and prototyping tool." },
-            {skill: "ChatGTP", icon: "assets/Images/chatgpt2.svg", description: "Figma is a vector graphics editor and prototyping tool." },
+            {skill: "ChatGTP", icon: "assets/Images/chatgpt1.svg", description: "Figma is a vector graphics editor and prototyping tool." },
         ]
     },
     {
