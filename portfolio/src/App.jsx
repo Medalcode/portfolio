@@ -12,14 +12,22 @@ const App = () => {
     <>
       <Navbar />
       <div className="container">
-        <Hero />
-        <Skills />
-        <WorkExperience />
-        <ContactMe />
+        <section id="hero">
+          <Hero />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="work-experience">
+          <WorkExperience />
+        </section>
+        <section id="contact-me">
+          <ContactMe />
+        </section>
       </div>
       <Footer />
     </>
   );
 };
 
-export default App
+export default App;
