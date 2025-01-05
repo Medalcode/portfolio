@@ -15,16 +15,18 @@ const ContactMe = () => {
                 iconUrl="assets/Images/gmail.svg"
                 text="jonatthan.medalla@gmail.com"
             />
-            <ContactInfoCard
-                iconUrl="assets/Images/github.svg"
-                text="https://github.com/Medalcode"
-            />
-            <ContactInfoCard
-                iconUrl="assets/Images/linkedin.svg"
-                text="www.linkedin.com/in/jonatthan-rodrigo-medalla-aliste-b0672a249
-
-"
-            />
+            <a href="https://github.com/Medalcode" target="_blank" rel="GitHub">
+                <ContactInfoCard
+                    iconUrl="assets/Images/github.svg"
+                    text="https://github.com/Medalcode"
+                />
+            </a>
+            <a href="https://www.linkedin.com/in/medalcode" target="_blank" rel="Linkedin">
+                <ContactInfoCard
+                    iconUrl="assets/Images/linkedin.svg"
+                    text="www.linkedin.com/in/medalcode"
+                />
+            </a>
         </div>
             
             <div style={{flex:1}}>
