@@ -43,18 +43,32 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
     {
-        title: "Frontend Developer at Google",
-        date: "2020 - Present",
-        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.", "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
+        title: "Technical Support Executive at VTR",
+        date: "2009 - 2023",
+        responsibilities: [
+            "Analyzed and resolved technical issues in internal systems to ensure operational continuity.",
+            "Detected and managed massive system failures using monitoring and data analysis tools.",
+            "Provided second-level technical support, resolving critical incidents efficiently.",
+            "Designed manuals and processes to train technical staff in problem-solving techniques.",
+            "Optimized workflows by implementing technological solutions and data-driven approaches."
+        ],
     },
     {
-        title: "Backend Developer at Google",
-        date: "2018 - 2020",
-        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.", "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
+        title: "Field Support Technician at TV Cable Nielsen",
+        date: "2007 - 2009",
+        responsibilities: [
+            "Implemented technical solutions for customers, including service installation and configuration.",
+            "Diagnosed and repaired faults in telecommunication equipment and systems.",
+            "Coordinated the provisioning and configuration of internal and external equipment, ensuring high standards of quality."
+        ],
     },
     {
-        title: "Full Stack Developer at Google",
-        date: "2016 - 2018",
-        responsibilities: ["Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.", "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware."],
+        title: "Mobile Device Repair Technician at ANOVO – COMTEL",
+        date: "2003 - 2006",
+        responsibilities: [
+            "Analyzed and repaired electronic and software failures in mobile devices.",
+            "Performed software updates and configurations on terminals to ensure full functionality.",
+            "Implemented process improvements for the refurbishment of mobile devices."
+        ],
     },
 ];
