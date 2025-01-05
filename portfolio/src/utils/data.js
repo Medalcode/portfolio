@@ -2,42 +2,42 @@ export const SKILLS = [
     {
         title: "Frontend",
         icon: "assets/Images/frontend2.svg",
-        skills:[
-            {skill: "HTML 5", icon: "assets/Images/html5.svg", description: "HTML is the standard markup language for Web pages." },
-            {skill: "CSS 3", icon: "assets/Images/css3.svg", description: "HTML is the standard markup language for Web pages." },
-            {skill: "JavaScript", icon: "assets/Images/jscript.svg", description: "HTML is the standard markup language for Web pages." },
-            {skill: "React", icon: "assets/Images/react.svg", description: "HTML is the standard markup language for Web pages." },
+        skills: [
+            { skill: "HTML 5", icon: "assets/Images/html5.svg", description: "Development of semantic and accessible web interfaces." },
+            { skill: "CSS 3", icon: "assets/Images/css3.svg", description: "Design of responsive and styled web interfaces." },
+            { skill: "JavaScript", icon: "assets/Images/jscript.svg", description: "Implementation of dynamic logic and DOM manipulation." },
+            { skill: "React", icon: "assets/Images/react.svg", description: "Creation of modular and reusable web applications." },
         ]
     },
     {
         title: "Backend",
         icon: "assets/Images/backend3.svg",
-        skills:[
-            {skill: "Python", icon: "assets/Images/python.svg", description: "Python is an interpreted, high-level and general-purpose programming language." },
-            {skill: "Django", icon: "assets/Images/django.svg", description: "HTML is the standard markup language for Web pages." },
-            {skill: "MySQL", icon: "assets/Images/mysql.svg", description: "MySQL is an open-source relational database management system." },
-            {skill: "MongoDB", icon: "assets/Images/mongodb.svg", description: "HTML is the standard markup language for Web pages." },
+        skills: [
+            { skill: "Python", icon: "assets/Images/python.svg", description: "Development of efficient and scalable business logic." },
+            { skill: "Django", icon: "assets/Images/django.svg", description: "Building APIs and full-stack web applications." },
+            { skill: "MySQL", icon: "assets/Images/mysql.svg", description: "Management and optimization of relational databases." },
+            { skill: "MongoDB", icon: "assets/Images/mongodb.svg", description: "Development of lightweight and portable databases for small projects." },
         ]
     },
     {
         title: "Tools",
         icon: "assets/Images/tools2.svg",
-        skills:[
-            {skill: "Github", icon: "assets/Images/github.svg", description: "GitHub is a code hosting platform for version control and collaboration." },
-            {skill: "Visual Studio Code", icon: "assets/Images/vscode.svg", description: "Visual Studio Code is a source-code editor developed by Microsoft." },
-            {skill: "Miro", icon: "assets/Images/miro.svg", description: "Figma is a vector graphics editor and prototyping tool." },
-            {skill: "ChatGTP", icon: "assets/Images/chatgpt.svg", description: "Figma is a vector graphics editor and prototyping tool." },
+        skills: [
+            { skill: "GitHub", icon: "assets/Images/github.svg", description: "Version control and collaboration on projects." },
+            { skill: "Visual Studio Code", icon: "assets/Images/vscode.svg", description: "Integrated development environment for multiple programming languages." },
+            { skill: "Linux", icon: "assets/Images/linux.svg", description: "Basic administration of systems and development environments in Linux." },
+            { skill: "ChatGPT", icon: "assets/Images/chatgpt.svg", description: "Testing and documentation of REST APIs." },
         ]
     },
     {
         title: "Soft Skills",
         icon: "assets/Images/softskills1.svg",
-        skills:[
-            {skill: "Problem Solving", icon: "assets/Images/problemsolving.svg", description: "HTML is the standard markup language for Web pages." },
-            {skill: "Teamwork", icon: "assets/Images/teamwork.svg", description: "Teamwork is the collaborative effort of a group to achieve a common goal." },
-            {skill: "Communication", icon: "assets/Images/communication2.svg", description: "Communication is the act of conveying information." },
-            {skill: "Time Management", icon: "assets/Images/timemanagement.svg", description: "HTML is the standard markup language for Web pages." },
-        ],
+        skills: [
+            { skill: "Problem Solving", icon: "assets/Images/problemsolving.svg", description: "Effective resolution of complex issues in technical environments." },
+            { skill: "Teamwork", icon: "assets/Images/teamwork.svg", description: "Collaboration in multidisciplinary teams to achieve common goals." },
+            { skill: "Communication", icon: "assets/Images/communication2.svg", description: "Clear and effective exchange of technical and non-technical ideas." },
+            { skill: "Time Management", icon: "assets/Images/timemanagement.svg", description: "Prioritization and organization to meet tight deadlines." },
+        ]
     },
 ];
 
