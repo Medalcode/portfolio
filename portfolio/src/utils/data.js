@@ -1,32 +1,32 @@
 export const SKILLS = [
     {
-        title: "Frontend",
-        icon: "assets/Images/frontend2.svg",
-        skills: [
-            { skill: "HTML 5", icon: "assets/Images/html5.svg", description: "Development of semantic and accessible web interfaces." },
-            { skill: "CSS 3", icon: "assets/Images/css3.svg", description: "Design of responsive and styled web interfaces." },
-            { skill: "JavaScript", icon: "assets/Images/jscript.svg", description: "Implementation of dynamic logic and DOM manipulation." },
-            { skill: "React", icon: "assets/Images/react.svg", description: "Creation of modular and reusable web applications." },
+        "title": "Frontend",
+        "icon": "assets/Images/frontend2.svg",
+        "skills": [
+            { "skill": "HTML 5", "icon": "assets/Images/html5.svg", "description": "Creating structures and basic content for web pages." },
+            { "skill": "CSS 3", "icon": "assets/Images/css3.svg", "description": "Designing and styling web page layouts." },
+            { "skill": "JavaScript", "icon": "assets/Images/jscript.svg", "description": "Creating interactive and dynamic web pages." },
+            { "skill": "React", "icon": "assets/Images/react.svg", "description": "Developing reactive user interfaces with reusable components." }
         ]
     },
     {
-        title: "Backend",
-        icon: "assets/Images/backend3.svg",
-        skills: [
-            { skill: "Python", icon: "assets/Images/python.svg", description: "Development of efficient and scalable business logic." },
-            { skill: "Django", icon: "assets/Images/django.svg", description: "Building APIs and full-stack web applications." },
-            { skill: "MySQL", icon: "assets/Images/mysql.svg", description: "Management and optimization of relational databases." },
-            { skill: "MongoDB", icon: "assets/Images/mongodb.svg", description: "Development of lightweight and portable databases for small projects." },
+        "title": "Backend",
+        "icon": "assets/Images/backend3.svg",
+        "skills": [
+            { "skill": "Python", "icon": "assets/Images/python.svg", "description": "Developing backend applications and scripts." },
+            { "skill": "Django", "icon": "assets/Images/django.svg", "description": "Building complete web applications using this Python framework." },
+            { "skill": "MySQL", "icon": "assets/Images/mysql.svg", "description": "Designing and managing relational databases." },
+            { "skill": "MongoDB", "icon": "assets/Images/mongodb.svg", "description": "Managing non-relational (NoSQL) databases." }
         ]
     },
     {
-        title: "Tools",
-        icon: "assets/Images/tools2.svg",
-        skills: [
-            { skill: "GitHub", icon: "assets/Images/github.svg", description: "Version control and collaboration on projects." },
-            { skill: "Visual Studio Code", icon: "assets/Images/vscode.svg", description: "Integrated development environment for multiple programming languages." },
-            { skill: "Linux", icon: "assets/Images/linux.svg", description: "Basic administration of systems and development environments in Linux." },
-            { skill: "ChatGPT", icon: "assets/Images/chatgpt.svg", description: "Testing and documentation of REST APIs." },
+        "title": "Tools",
+        "icon": "assets/Images/tools2.svg",
+        "skills": [
+            { "skill": "GitHub", "icon": "assets/Images/github.svg", "description": "Version control and collaboration in software projects." },
+            { "skill": "Visual Studio Code", "icon": "assets/Images/vscode.svg", "description": "Code editor with integrated development tools." },
+            { "skill": "Linux", "icon": "assets/Images/linux.svg", "description": "Using the Linux operating system for development and server management." },
+            { "skill": "ChatGPT", "icon": "assets/Images/chatgpt.svg", "description": "Assistance in generating code and solving programming problems." }
         ]
     },
     {
