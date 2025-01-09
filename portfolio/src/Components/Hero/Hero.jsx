@@ -7,7 +7,7 @@ const Hero = () => {
       <section className="hero-container">
           <div className="hero-content">
               <h2>Building Digital Experiences That Inspire</h2>
-              <p>Hi, I'm Jonatthan Medalla, a freelance web developer. I can 
+              <p>Hi, I'm John Doe, a freelance web developer. I can 
                   provide clean, responsive and interactive websites.
               </p>
           </div>
