@@ -54,7 +54,7 @@ export const WORK_EXPERIENCE = [
         ],
     },
     {
-        title: "Field Support Technician at TV Cable Nielsen",
+        title: "Support Technician at Konecta",
         date: "2007 - 2009",
         responsibilities: [
             "Implemented technical solutions for customers, including service installation and configuration.",
