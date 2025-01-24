@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import './Projects.css';
-import { WORK_EXPERIENCE } from '../../utils/data';
+import { PROJECTS, WORK_EXPERIENCE } from '../../utils/data';
 import ExperienceCard from './ProjectsCard/ProjectsCard';
 
-const WorkExperience = () => {
+const Projects = () => {
   const slideRef = useRef();
 
   const settings = {
@@ -34,10 +34,10 @@ const WorkExperience = () => {
   };
 
   return (
-    <section className="experience-container">
-      <h5>Work Experience</h5>
+    <section className="projects-container">
+      <h5>My Projects</h5>
 
-      <div className="experience-content">
+      <div className="projects-content">
         <div className="arrow-right" onClick={slideRight}> 
           <span className="material-symbols-outlined">chevron_right</span>
         </div>
@@ -47,7 +47,7 @@ const WorkExperience = () => {
         </div>
 
         <Slider ref={slideRef} {...settings}>
-          {WORK_EXPERIENCE.map((item) => (
+          {PROJECTS.map((item) => (
             <ExperienceCard key={item.title} details={item} />
           ))}
         </Slider>
@@ -56,4 +56,4 @@ const WorkExperience = () => {
   );
 };
 
-export default WorkExperience;
+export default Projects;

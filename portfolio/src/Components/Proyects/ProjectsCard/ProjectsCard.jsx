@@ -1,12 +1,12 @@
 import React from 'react'
 import './ProjectsCard.css'
 
-const ExperienceCard = ({details}) => {
+const ProjectsCard = ({details}) => {
   return (
-    <div className="work-experience-card">
+    <div className="projects-card">
         <h6>{details.title}</h6>
 
-        <div className="work-duration">{details.date}</div>
+        <div className="projects-duration">{details.date}</div>
 
         <ul>
             {details.responsibilities.map((item) => (
@@ -17,4 +17,4 @@ const ExperienceCard = ({details}) => {
   );
 };
 
-export default ExperienceCard
+export default ProjectsCard

@@ -72,3 +72,35 @@ export const WORK_EXPERIENCE = [
         ],
     },
 ];
+
+export const PROJECTS = [
+    {
+        title: "FAKE STORE",
+        date: "2009 - 2023",
+        responsibilities: [
+            "Analyzed and resolved technical issues in internal systems to ensure operational continuity.",
+            "Detected and managed massive system failures using monitoring and data analysis tools.",
+            "Provided second-level technical support, resolving critical incidents efficiently.",
+            "Designed manuals and processes to train technical staff in problem-solving techniques.",
+            "Optimized workflows by implementing technological solutions and data-driven approaches."
+        ],
+    },
+    {
+        title: "API REST",
+        date: "2007 - 2009",
+        responsibilities: [
+            "Implemented technical solutions for customers, including service installation and configuration.",
+            "Diagnosed and repaired faults in telecommunication equipment and systems.",
+            "Coordinated the provisioning and configuration of internal and external equipment, ensuring high standards of quality."
+        ],
+    },
+    {
+        title: "Mobile Device Repair Technician at ANOVO – COMTEL",
+        date: "2003 - 2006",
+        responsibilities: [
+            "Analyzed and repaired electronic and software failures in mobile devices.",
+            "Performed software updates and configurations on terminals to ensure full functionality.",
+            "Implemented process improvements for the refurbishment of mobile devices."
+        ],
+    },
+];
