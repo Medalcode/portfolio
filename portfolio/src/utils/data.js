@@ -78,29 +78,33 @@ export const PROJECTS = [
         title: "FAKE STORE",
         date: "2009 - 2023",
         responsibilities: [
-            "Analyzed and resolved technical issues in internal systems to ensure operational continuity.",
-            "Detected and managed massive system failures using monitoring and data analysis tools.",
-            "Provided second-level technical support, resolving critical incidents efficiently.",
-            "Designed manuals and processes to train technical staff in problem-solving techniques.",
-            "Optimized workflows by implementing technological solutions and data-driven approaches."
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         ],
     },
     {
         title: "API REST",
         date: "2007 - 2009",
         responsibilities: [
-            "Implemented technical solutions for customers, including service installation and configuration.",
-            "Diagnosed and repaired faults in telecommunication equipment and systems.",
-            "Coordinated the provisioning and configuration of internal and external equipment, ensuring high standards of quality."
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         ],
     },
     {
-        title: "Mobile Device Repair Technician at ANOVO – COMTEL",
+        title: "CRUD",
         date: "2003 - 2006",
         responsibilities: [
-            "Analyzed and repaired electronic and software failures in mobile devices.",
-            "Performed software updates and configurations on terminals to ensure full functionality.",
-            "Implemented process improvements for the refurbishment of mobile devices."
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         ],
     },
 ];
