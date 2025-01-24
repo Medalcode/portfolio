@@ -76,7 +76,8 @@ export const WORK_EXPERIENCE = [
 export const PROJECTS = [
     {
         title: "FAKE STORE",
-        date: "2009 - 2023",
+        technologies: [" HTML ", " CSS ", " JavaScript ", " Flask ", " SQLite "],
+        description: "A simple CRUD application for managing tasks.",
         responsibilities: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -87,7 +88,7 @@ export const PROJECTS = [
     },
     {
         title: "API REST",
-        date: "2007 - 2009",
+        technologies: ["HTML", "CSS", "JavaScript", "Flask", "SQLite"],
         responsibilities: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -98,7 +99,7 @@ export const PROJECTS = [
     },
     {
         title: "CRUD",
-        date: "2003 - 2006",
+        technologies: ["HTML", "CSS", "JavaScript", "Flask", "SQLite"],
         responsibilities: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

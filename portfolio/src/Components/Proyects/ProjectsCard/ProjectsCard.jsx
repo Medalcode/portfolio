@@ -4,15 +4,18 @@ import './ProjectsCard.css'
 const ProjectsCard = ({details}) => {
   return (
     <div className="projects-card">
-        <h6>{details.title}</h6>
+        <h1>{details.title}</h1>
 
-        <div className="projects-duration">{details.date}</div>
+        <p>{"Description : "+details.description}</p>
 
+      
         <ul>
             {details.responsibilities.map((item) => (
                 <li key={item}>{item}</li>
             ))}
         </ul>
+        <div className="projects-duration">{"TECHNOLOGIES :"+details.technologies}</div>
+
     </div>
   );
 };
