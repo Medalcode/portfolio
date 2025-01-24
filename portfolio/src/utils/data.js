@@ -88,7 +88,8 @@ export const PROJECTS = [
     },
     {
         title: "API REST",
-        technologies: ["HTML", "CSS", "JavaScript", "Flask", "SQLite"],
+        technologies: [" HTML ", " CSS ", " JavaScript ", " Flask ", " SQLite "],
+        description: "A simple CRUD application for managing tasks.",
         responsibilities: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -98,8 +99,9 @@ export const PROJECTS = [
         ],
     },
     {
-        title: "CRUD",
-        technologies: ["HTML", "CSS", "JavaScript", "Flask", "SQLite"],
+        title: "CRUD APP",
+        technologies: [" HTML ", " CSS ", " JavaScript ", " Flask ", " SQLite "],
+        description: "A simple CRUD application for managing tasks.",
         responsibilities: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
