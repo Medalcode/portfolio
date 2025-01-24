@@ -5,6 +5,7 @@ import Hero from './Components/Hero/Hero';
 import Skills from './Components/Skills/Skills';
 import WorkExperience from './Components/WorkExperience/WorkExperience';
 import ContactMe from './Components/ContactMe/ContactMe';
+import Projects from './Components/Proyects/Projects';
 import Footer from './Components/Footer/Footer';
 
 const App = () => {
@@ -17,6 +18,9 @@ const App = () => {
         </section>
         <section id="skills">
           <Skills />
+        </section>
+        <section id="projects">
+          <Projects />
         </section>
         <section id="work-experience">
           <WorkExperience />
