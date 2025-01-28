@@ -10,7 +10,7 @@ const ProjectsCard = ({details}) => {
 
       
         <ul>
-            {details.responsibilities.map((item) => (
+            {details.characteristics.map((item) => (
                 <li key={item}>{item}</li>
             ))}
         </ul>

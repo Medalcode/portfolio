@@ -78,7 +78,7 @@ export const PROJECTS = [
         title: "FAKE STORE",
         technologies: [" HTML ", " CSS ", " JavaScript ", " Flask ", " SQLite "],
         description: "A simple CRUD application for managing tasks.",
-        responsibilities: [
+        characteristics: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -90,7 +90,7 @@ export const PROJECTS = [
         title: "API REST",
         technologies: [" HTML ", " CSS ", " JavaScript ", " Flask ", " SQLite "],
         description: "A simple CRUD application for managing tasks.",
-        responsibilities: [
+        characteristics: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -102,7 +102,7 @@ export const PROJECTS = [
         title: "CRUD APP",
         technologies: [" HTML ", " CSS ", " JavaScript ", " Flask ", " SQLite "],
         description: "A simple CRUD application for managing tasks.",
-        responsibilities: [
+        characteristics: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
