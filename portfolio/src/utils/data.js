@@ -75,16 +75,17 @@ export const WORK_EXPERIENCE = [
 
 export const PROJECTS = [
     {
-        title: "FAKE STORE",
-        technologies: [" HTML ", " CSS ", " JavaScript ", " Flask ", " SQLite "],
-        description: "A simple CRUD application for managing tasks.",
+        title: "Tuniforme",
+        technologies: [" HTML ", " CSS ", " JavaScript ", " Bootstrap ", " PostgreSQL ", " Django ", " Django REST framework ", " Render "],
+        description: "Fake Store.",
         characteristics: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "The system allows you to manage inventories, add, edit and delete uniforms, and receive alerts for low stock.",
+            "Users can place orders, track their status, and view purchase history.",
+            "The distribution of uniforms is recorded, including assignments, deliveries and returns.",
+            "It has authentication and roles for administrators, employees and users with different permissions.",
+            "The interface is intuitive and responsive thanks to Bootstrap, optimized for mobile devices."
         ],
+        link: "https://tuniforme.onrender.com"
     },
     {
         title: "API REST",

@@ -15,6 +15,9 @@ const ProjectsCard = ({details}) => {
             ))}
         </ul>
         <div className="projects-duration">{"TECHNOLOGIES :"+details.technologies}</div>
+        
+        <a href={details.link}><p>{details.link}</p></a>
+        
 
     </div>
   );
