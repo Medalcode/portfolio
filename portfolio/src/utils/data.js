@@ -88,16 +88,16 @@ export const PROJECTS = [
         link: "https://tuniforme.onrender.com"
     },
     {
-        title: "API REST",
-        technologies: [" HTML ", " CSS ", " JavaScript ", " Flask ", " SQLite "],
-        description: "A simple CRUD application for managing tasks.",
+        title: "Medalblog",
+        technologies: [" HTML ", " CSS ", " JavaScript ", " Next.js ", " Tailwind CSS ", " MongoDB ", " NextAuth.js ", " Vercel "],
+        description: "A personal blog to share programming tips and resources.",
         characteristics: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "It features a clean and responsive design thanks to Tailwind CSS.",
+            "Implements static and dynamic page generation with Next.js.",
+            "Includes authentication and user management using NextAuth.js.",
+            "Content is handled in Markdown/MDX, making it easy to edit and organize."
         ],
+        link: "https://medalblog-vo3w.vercel.app"
     },
     {
         title: "CRUD APP",
