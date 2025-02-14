@@ -100,15 +100,15 @@ export const PROJECTS = [
         link: "https://medalblog-vo3w.vercel.app"
     },
     {
-        title: "CRUD APP",
-        technologies: [" HTML ", " CSS ", " JavaScript ", " Flask ", " SQLite "],
-        description: "A simple CRUD application for managing tasks.",
+        title: "Portfolio",
+        technologies: [" HTML ", " CSS ", " JavaScript ", " React ", "Node", "JSON"],
+        description: "Personal portfolio website designed to showcase projects, skills, and work experience.",
         characteristics: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "Responsive design that adapts to various devices.",
+            "Interactive UI with dynamic content filtering and animations.",
+            "Modern design with a focus on usability and visual appeal.",
+            "Integration with backend API for dynamic data display.",
+            "Optimized for performance and SEO to reach a wider audience."
         ],
     },
 ];
