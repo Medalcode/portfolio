@@ -77,7 +77,7 @@ export const PROJECTS = [
     {
         title: "Tuniforme",
         technologies: [" HTML ", " CSS ", " JavaScript ", " Bootstrap ", " PostgreSQL ", " Django ", " Django REST framework ", " Render "],
-        description: "Fake Store.",
+        description: "A fake store with transbank payment gateway built for the application development workshop.",
         characteristics: [
             "The system allows you to manage inventories, add, edit and delete uniforms, and receive alerts for low stock.",
             "Users can place orders, track their status, and view purchase history.",
